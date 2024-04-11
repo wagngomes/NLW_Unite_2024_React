@@ -1,7 +1,15 @@
+import { AttendeeList } from "./componentes/attendee-list";
+import { Header } from "./componentes/header";
 
 
 export function App() {
 
-  return <h1>hello world</h1>
+  return (
+    <div>
+      <Header/>
+      <AttendeeList/>
+      
+    </div>
+  )
 
 }
